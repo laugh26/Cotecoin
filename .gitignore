@@ -1,0 +1,34 @@
+src/*.exe
+src/cotecoin
+src/cotecoind
+src/test_cotecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.cotecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+cotecoin-qt
+Cotecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+cotecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
